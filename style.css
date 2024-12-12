@@ -1,0 +1,30 @@
+h1{
+    color: black;
+    font-family: sans-serif;
+}
+h1 :hover{
+    color: white;
+    transition: all 1s ease-in-out;
+}
+input {
+    color: black;
+    background: white;
+}
+input  :focus{
+    background: #000;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+#printCity{
+    height: 50px;
+    width: 280px;
+    background: #000;
+    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+    background: #000;
+    color: white;
+}
